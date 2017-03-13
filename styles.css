@@ -354,6 +354,7 @@ section.big-shots p a:hover {
 footer {
   padding-top: 2em;
   border-top: 2px solid #ff0500;
+  max-width: 100%;
   width: 100%;
   background: #0e0e0e;
 }
@@ -389,7 +390,7 @@ footer {
 
 .footer-nav li .social-icon {
   border-radius: 50%;
-  border: 1px solid white;
+  border: 3px solid white;
   width: 44px;
   display: inline-block;
   text-align: center;
@@ -423,6 +424,11 @@ footer {
   color: white;
 }
 
+.copyright {
+  color: white;
+  font-size: 15px;
+  margin: .5em 0 1em;
+}
 
 
 
