@@ -5,6 +5,15 @@
   box-sizing: border-box;
 }
 
+
+.clearfix {
+  clear: both;
+}
+
+img {
+  width: 100%;
+}
+
 body {
   font-family: 'Source Sans Pro', sans-serif;
 }
@@ -75,6 +84,359 @@ body {
 
 /*End Nav Styling*/
 
+/*Start Hero styling*/
+
+.category {
+  font-weight: 700;
+  color: #ff0500;
+  text-transform: uppercase;
+}
+
+.category:hover {
+  color: black;
+}
+
+.title {
+  text-transform: uppercase;
+  color: black;
+  font-size: 2em;
+  font-weight: 700;
+}
+
+.title:hover {
+  color: black;
+}
+
+.title-div {
+  padding: 0 5em;
+  margin-bottom: .5em;
+}
+
+.article-metadata p {
+  font-size: 1.4em;
+  margin-bottom: 10px;
+  padding: 0 5em;
+}
+
+.article-metadata {
+  padding: 2em 0;
+  bottom: -3em;
+  border-top: 2px solid #FF0500;
+  position: absolute;
+  background: linear-gradient(to bottom,rgba(255,255,255,.8) 0,rgba(255,255,255,1) 40%);
+}
+
+/*End Hero styling*/
+
+/*Start Aside Styling*/
+aside h2 {
+  margin: 1em 0;
+  font-weight: 700;
+  font-size: 1.2em;
+  text-transform: uppercase;
+}
+
+.aside__ul li {
+  margin-bottom: 1em;
+  padding-bottom: 1em;
+  border-bottom: 1px solid #e5e5e5;
+  padding-left: .8em;
+}
+
+.styled__li__a {
+  font-weight: 700;
+  color: black;
+}
+
+.styled__li__a:hover {
+  color: black;
+}
+
+/*End Aside Styling*/
+
+/*Start Articles Styling*/
+section img {
+  margin-bottom: 1em;
+}
+
+.article-title {
+  color: black;
+  font-weight: 700;
+  font-size: 1.5em;
+}
+
+.article-title-div {
+  margin-bottom: .5em;
+}
+
+.article-title:hover {
+  color: black;
+}
+
+.below ul {
+  list-style-type: none;
+}
+
+.below ul li{
+  margin-top: 1em;
+}
+
+.below {
+  margin-top: 2em;
+}
+/*End Articles Styling*/
+
+/*Start Headlines Styling*/
+h2.text-center {
+  margin-bottom: 2em;
+  font-weight: 700;
+  font-size: 1.5em;
+}
+
+.headlines-section {
+  border-bottom: 1px solid #e5e5e5;
+  text-align: center;
+  margin-bottom: 2em;
+  padding-bottom: 2em;
+}
+/*End Headlines Styling*/
+
+/*Start Article Card Styling*/
+
+.article-section {
+  padding-bottom: 2em;
+  border-bottom: 1px solid #e5e5e5;
+}
+/*End Article Card Styling*/
+
+/*Start Voices section styling*/
+
+.article-voices {
+  padding-bottom: 2em;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.article-voices img {
+  margin-bottom: 0;
+}
+
+.article-voices .voices--author {
+  color: white;
+  background: black;
+  padding: .5em 1em .5em;
+}
+
+/*End Voices section styling*/
+
+.in-the-magazine {
+  padding-bottom: 2em;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+section.big-shots {
+  padding: 2em 1em;
+  background: #e5e5e5;
+  width: 100%;
+  height: auto;
+  margin-bottom: 2em;
+}
+
+section.big-shots .h2 {
+  font-size: 4em;
+  text-transform: uppercase;
+  /*letter-spacing: -3px;*/
+  margin-bottom: .1em;
+  margin-top: 0;
+  color: #ff0500;
+}
+
+section.big-shots .h2 a {
+  color: #ff0500;
+}
+
+section.big-shots .h2 a:hover {
+  color: black;
+}
+
+section.big-shots .big-shots--intro p a {
+  color: #ff0500;
+  font-size: 16px;
+}
+
+section.big-shots p a:hover {
+  color: black;
+}
+
+.big-shots--intro {
+  border-bottom: 1px solid #666;
+  padding-bottom: 2em;
+  margin-bottom: 2em;
+}
+
+.big-shots--image-title {
+  margin-bottom: .5em;
+  font-size: 1.5em;
+}
+
+.big-shots--image-title a {
+  color: black;
+  font-weight: 700;
+}
+
+.big-shots .big-shots--image-description {
+  font-weight: 700;
+  margin-bottom: 2em;
+}
+
+.section--float {
+  float: left;
+  width: 100%;
+}
+
+/*End Big Shot styling*/
+
+/*Start Magazine Issue Styling*/
+.magazine-issue .this-week {
+  background-color: #ff0500;
+  color: white;
+  text-align: center;
+  width: 7em;
+  margin: 0 auto;
+  line-height: 3em;
+  font-weight: 700;
+}
+
+.magazine-issue .magazine-issue-date {
+  color: #ff0500;
+  text-align: center;
+  font-weight: 700;
+}
+
+.magazine-issue .magazine-issue-date:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+.magazine-issue-headline {
+  padding-bottom: 1em;
+  margin-bottom: 2em;
+}
+
+.magazine-issue-headline a {
+  font-size: 2.6em;
+  text-transform: uppercase;
+  color: black;
+}
+
+.magazine-issue ul li {
+  margin-bottom: 1em;
+  padding-bottom: 1em;
+  border-bottom: 1px solid #e5e5e5;
+  padding-left: .8em;
+}
+
+.more-info-btn {
+  background-color: #ff0500;
+  color: white;
+  text-align: center;
+  width: 18em;
+  line-height: 3em;
+  font-weight: 700;
+}
+
+.magazine-issue {
+  padding-bottom: 2em;
+}
+
+/*End Magazine Issue Styling*/
+
+/*Start Footer Styling*/
+footer {
+  padding-top: 2em;
+  border-top: 2px solid #ff0500;
+  width: 100%;
+  background: #0e0e0e;
+}
+
+.footer-nav {
+  list-style-type: none;
+  margin-bottom: 2em;
+  text-align: center;
+}
+
+.footer-nav li {
+  display: inline;
+  margin-right: 2em;
+}
+
+.footer-nav li a {
+  color: white;
+  font-weight: 700;
+  font-size: 16px;
+  height: 44px;
+}
+
+.footer-nav li a img {
+  width: 230px;
+  height: 48px;
+}
+
+#footer-logo {
+  background: #ff0500;
+  display: inline-block;
+  padding: 0 1em;
+}
+
+.footer-nav li .social-icon {
+  border-radius: 50%;
+  border: 1px solid white;
+  width: 44px;
+  display: inline-block;
+  text-align: center;
+  padding-top: 7px;
+  font-size: 20px;
+}
+
+.footer-issue {
+  margin-bottom: 1em;
+  padding: 0 3em;
+}
+
+.footer-issue h3 {
+  color: white;
+  margin-bottom: 1em;
+}
+
+.footer-issue h3:hover {
+  text-decoration: underline;
+}
+
+.footer-issue ul {
+  list-style-type: none;
+}
+
+.footer-issue ul li a {
+  color: white;
+}
+
+.footer-issue ul li a:hover {
+  color: white;
+}
+
+
+
+
+/*End Footer Styling*/
+
+
+
+
+@media (min-width: 1200px) {
+    .container{
+        max-width: 1280px;
+        width: 100%;
+    }
+}
 
 @media screen and (max-width: 1260px) {
   #logo {
@@ -84,5 +446,16 @@ body {
 
   #sign_in span {
     display: inline-block;
+  }
+}
+
+@media screen and (max-width: 978px) {
+
+  .article-metadata {
+    padding: 2em 0;
+    /*bottom: -3em;*/
+    border-top: 2px solid #FF0500;
+    position: relative;
+    background: linear-gradient(to bottom,rgba(255,255,255,.8) 0,rgba(255,255,255,1) 40%);
   }
 }
